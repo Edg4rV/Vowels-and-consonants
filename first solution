@@ -1,0 +1,10 @@
+text = input()
+for i in range(len(text)):
+    if text[i] == "a" or text[i] == "e" or text[i] == "i" or text[i] == "o" or text[i] == "u":
+        print("vowel")
+    elif text[i] == " ":
+        break
+    elif text[i].isalpha() == False:
+        break
+    else:
+        print("consonant")
